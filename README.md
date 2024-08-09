@@ -14,7 +14,7 @@ Este projeto é um simples conversor de imagens que utiliza o Node.js e a biblio
 2. Instale as dependências necessárias executando o comando abaixo na pasta raiz do projeto:
 
    ```bash
-   npm install sharp
+   npm install 
    ```
 ## Estrutura de Pastas
 
