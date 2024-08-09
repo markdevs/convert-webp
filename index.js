@@ -26,7 +26,7 @@ if (!fs.existsSync(outputFolder)) {
   
       // Convert and compress the image to WebP with 80% quality (adjust as needed)
       sharp(inputPath)
-        .webp({ quality: 100 })
+        .webp({ quality: 80 })
         .toFile(outputPath, (err) => {
           if (err) {
             console.error(`Error converting ${file}:`, err);
